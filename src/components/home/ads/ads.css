@@ -1,0 +1,40 @@
+
+
+.ads{
+    background-color: white;
+    text-align: center;
+    
+}
+.ads img{
+    text-align: center;
+}
+.ads h1{
+    color: #c80815;
+}
+  .ads .box img {
+    max-width:50% ;
+    text-align: center;
+    margin: auto;
+}
+
+.ads p{
+    font-weight: 500;
+    margin-top: 8px;
+   color:purple;
+    
+}
+
+.ads .icon {
+    max-width: 10%; 
+    text-align: center;
+    margin: auto;
+    margin-top: 16px;
+   /* display: inline-block; */
+
+}
+
+.ads h2{
+    margin-top: 2px;
+    color: red;
+}
+

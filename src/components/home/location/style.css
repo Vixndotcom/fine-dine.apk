@@ -1,0 +1,62 @@
+.location .box {
+  position: relative;
+  border-radius: 5px;
+}
+.location{
+  background-color: black;
+}
+.location img {
+  border-radius: 5px;
+}
+.location .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 250px;
+  width: 100%;
+  color: #fff;
+  z-index: 222;
+}
+.location .overlay::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 210px;
+  background: #d80707f6;
+  z-index: -1;
+  margin: 20px;
+  border-radius: 5px;
+  opacity: 33.3%;
+}
+.location h5 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.location label {
+  color: #fff;
+   margin-right: 20px;  
+  text-align: center;
+margin: auto;
+font-size: 20px;
+  opacity: 75%;
+}
+.location h4{
+  font-size: 24px;
+}
+.location h4 .fa-location-dot{
+  color: #c80815;
+}
+
+@media screen and (max-width: 800px) {
+  .location .overlay::after {
+    width: 240px;
+    height: 160px;
+  }
+}
