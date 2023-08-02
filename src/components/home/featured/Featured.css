@@ -7,6 +7,24 @@
   cursor: pointer;
   background-color: #fff;
 }
+.featured{
+  background-color: black;
+}
+.featured h4{
+  text-align: center;
+}
+.featured button{
+  margin:24px 40% ;
+  text-align: center;
+  margin-top: 24px;
+  background-color: black;
+  color: white;
+  border: 2px solid #c80815;
+}
+.featured button:hover{
+  background: #c80815;
+  color: #fff;
+}
 .featured img {
   width: 60px;
   height: 65px;

@@ -16,7 +16,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 250px;
+  height: 200px;
   width: 100%;
   color: #fff;
   z-index: 222;
@@ -26,8 +26,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 300px;
-  height: 210px;
+  width: 280px;
+  height: 200px;
   background: #d80707f6;
   z-index: -1;
   margin: 20px;
@@ -35,7 +35,7 @@
   opacity: 33.3%;
 }
 .location h5 {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 500;
   margin-bottom: 8px;
 }
@@ -48,7 +48,7 @@ font-size: 20px;
   opacity: 75%;
 }
 .location h4{
-  font-size: 24px;
+  font-size: 22px;
 }
 .location h4 .fa-location-dot{
   color: #c80815;
@@ -56,7 +56,7 @@ font-size: 20px;
 
 @media screen and (max-width: 800px) {
   .location .overlay::after {
-    width: 240px;
+    width: 220px;
     height: 160px;
   }
 }

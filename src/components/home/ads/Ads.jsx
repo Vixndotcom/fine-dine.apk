@@ -1,6 +1,6 @@
 import React from "react"
 import Heading from "../../common/Heading"
-import { ads, awards } from "../../data/Data"
+import { ads, } from "../../data/Data"
 import "./ads.css"
 
 const Ads = () => {

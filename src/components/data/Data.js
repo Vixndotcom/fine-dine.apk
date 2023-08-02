@@ -15,8 +15,8 @@ export const nav = [
     path: "/blog",
   },
    {
-     text: "services",
-     path: "/services",
+      text: "Menu",
+      path: "/services",
    },
   {
     text: "contact",
@@ -27,12 +27,12 @@ export const featured = [
   {
     // cover: "../images/hero/h1.png",
     name: "Fine-Dining",
-    total: "10 listings",
+    total: "56 listings",
   },
   {
     // cover: "../images/hero/h2.png",
     name: "Restaurants",
-    total: "80 listings",
+    total: "200 listings",
   },
   {
     // cover: "../images/hero/h3.png",
@@ -42,7 +42,7 @@ export const featured = [
   {
     // cover: "../images/hero/h4.png",
     name: "Bars & Lounges",
-    total: "42 listings",
+    total: "100 listings",
   },
 
 ]

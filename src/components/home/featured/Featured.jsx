@@ -9,8 +9,11 @@ const Featured = () => {
       <section className='featured background'>
         <div className='container'>
           <Heading title='Our Menu' subtitle='Find All Food Outlets.' />
-
+         
           <FeaturedCard />
+          <br />
+      
+          <button>Add a Listing <i class ='fa fa-thumb-tack'></i></button>
         </div>
       </section>
     </> 

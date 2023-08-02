@@ -19,6 +19,7 @@ const Contact = () => {
             <textarea cols='30' rows='10'></textarea>
             <button>Submit Request</button>
           </form>
+          <br />
         </div>
       </section>
     </>

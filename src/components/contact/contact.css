@@ -1,6 +1,10 @@
 .contact form div {
   display: flex;
 }
+
+.contact{
+  background-color: black;
+}
 .contact textarea {
   border: 1px solid rgba(0, 0, 0, 0.1);
   width: 100%;

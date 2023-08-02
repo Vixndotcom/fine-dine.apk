@@ -1,17 +1,20 @@
 import React from "react"
 import img from "../images/catering-g418d44c5a_1280.jpg"
 import Back from "../common/Back"
-import "../home/featured/Featured.css"
-import FeaturedCard from "../home/featured/FeaturedCard"
+import "../home/location/style.css"
+import Location from "../home/location/Location"
 
 const Services = () => {
   return (
     <>
       <section className='services mb'>
-        <Back name='Services' title='Services -All Services' cover={img} />
-        <div className='featured container'>
+        <Back name='Services' title='Services - Discover new Places' cover={img} />
+        <div className='locate'>
           
-          <FeaturedCard />
+          <Location />
+          <br />
+          
+          {/* <button>Add a Listing <i class ='fa fa-thumb-tack'></i></button> */}
         </div>
       </section>
     </>
