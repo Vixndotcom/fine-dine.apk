@@ -10,7 +10,7 @@ const Team = () => {
         <div className='container'>
           <Heading title='Our Weekly Feature' subtitle='Only the Best. Make reservations Today!' />
           {/* <p className="weekly">Contact us if you'll like your Buisness to be a part of the weekly feature</p> */}
-          <div className='content mtop grid3'>
+          <div className='content mtop '>
             {team.map((val, index) => (
               <div className='box' key={index}>
                 <button className='btn7'>{val.list}<i className='fa fa-star'></i> </button>

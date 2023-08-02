@@ -11,7 +11,7 @@ const Location = () => {
         <div className='container'>
           <Heading title='Explore Menu' subtitle='Find Cuisines based on Location. Search places closest to use' />
 
-          <div className='content grid3 mtop'>
+          <div className='content grid11  mtop'>
             {location.map((item, index) => (
               <div className='box' key={index}>
                 <img src={item.cover} alt='' />

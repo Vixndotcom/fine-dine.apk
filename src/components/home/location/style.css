@@ -16,28 +16,34 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 200px;
+  height: 240px;
   width: 100%;
   color: #fff;
   z-index: 222;
+  margin-left: 8px;
+}
+.location img{
+  margin-top: 32px;
 }
 .location .overlay::after {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
-  width: 280px;
+  width: 600px;
   height: 200px;
   background: #d80707f6;
   z-index: -1;
   margin: 20px;
   border-radius: 5px;
-  opacity: 33.3%;
+  opacity: 75%;
 }
 .location h5 {
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 8px;
+  text-decoration: underline;
+  cursor: pointer;
 }
 .location label {
   color: #fff;
@@ -56,7 +62,7 @@ font-size: 20px;
 
 @media screen and (max-width: 800px) {
   .location .overlay::after {
-    width: 220px;
+    width: 360px;
     height: 160px;
   }
 }

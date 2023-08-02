@@ -8,7 +8,7 @@ const FeaturedCard = () => {
         {featured.map((items, index) => (
           <div className='box' key={index}>
             {/* <img src = {items.cover} alt=''/> */}
-            <h3>{items.name}</h3> 
+            <h4>{items.name}</h4> 
             <label>{items.total}</label>
             
           </div>
