@@ -19,7 +19,7 @@ const Ads = () => {
 
                 <h1>{item.num}</h1>
                 <div className="desc">
-                  <p>For just +999 per Month your Business gets exposure for 7days to our thousands of users</p>
+                  <p>For just #999 per Month your Business gets exposure for 7days to our thousands of users</p>
 {/* 
                   <div className='icon'>
                     

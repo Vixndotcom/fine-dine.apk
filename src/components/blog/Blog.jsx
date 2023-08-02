@@ -9,7 +9,7 @@ const Blog = () => {
   return (
     <>
       <section className='blog-out mb'>
-        <Back name='Blog -' title='Our Weekly Features of Highly-Recommended Places to visit.' cover={img} />
+        <Back name='Blog -' title='Best Places to visit.' cover={img} />
         <br />
         <div className='bet Team'>
           <Team />
