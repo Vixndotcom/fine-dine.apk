@@ -10,6 +10,7 @@ const FeaturedCard = () => {
             {/* <img src = {items.cover} alt=''/> */}
             <h3>{items.name}</h3> 
             <label>{items.total}</label>
+            
           </div>
         ))}
       </div>
