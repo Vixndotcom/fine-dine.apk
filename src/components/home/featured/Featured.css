@@ -14,16 +14,19 @@
 }
 .featured{
   background-color: black;
+  
 }
 .featured h4{
   text-align: center;
 }
 .featured button{
-  margin:24px 40% ;
+  margin:auto;
+  margin-left: 16px;
   text-align: center;
   margin-top: 24px;
   background-color: black;
   color: white;
+  justify-content: center;
   border: 2px solid #c80815;
 }
 .featured button:hover{
